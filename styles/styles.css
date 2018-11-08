@@ -1,0 +1,152 @@
+/* Styles des divisions principales de la page */
+body{
+        background-color: #77AADD;
+        background-image: url(imgs/FONDGLOBAL.jpg);
+        background-repeat: repeat-x;     
+ }
+.container{
+        background-color:white;
+        border : 0.2em solid black;
+ }
+
+#contenu{
+	border: none;
+	padding: 1.3em;
+	border-left :  groove 0.8em #980101;
+        /* permet de fixer une hauteur mini sur les navigateurs modernes */
+         min-height:27em;
+/* pour obtenir le même effet sur IE, sachant que si le contenu dépasse, il
+"poussera" la hauteur en ne respectant pas la norme. On se joue de ses lacunes
+*/
+         height:27em;
+  }
+
+/* pour rétablir le mauvais effet sur les nav. modernes */
+html>body #contenu{
+        height:auto;
+}
+
+header{
+        background-color:rgb(72,198,236);
+	color : #980101;
+	border: solid 0.1em #980101;
+	height: 154px;
+	border-collapse: separate;
+}
+header #logoGSB {
+  width : 238px;
+  height : 152px;
+}
+
+header h1 {
+  font-size : x-large;
+ }
+nav {
+	margin-top : 0.8em;
+	padding: 1em;
+	background-color: white;
+	color: rgb(0,85,227);
+}
+
+#contenu pre {
+  width:95%;
+  overflow : scroll;
+}
+#contenu h2 {
+  font-size : large;
+  text-align:left;
+  margin:0;
+  margin-bottom:0.5em;
+}
+
+.logoValidW3c {
+  display: inline;
+}
+#libValidW3c{
+  display : inline;
+  vertical-align:middle;
+}
+legend {
+    width: auto;
+}
+/* Style des formulaires */
+.corpsForm {
+  border : solid 0.1em #000;
+  border-bottom-width:1px;
+  padding: 0.8em;
+  width : 95%;
+}
+.piedForm {
+  text-align:right ;
+  width : 95%;
+  margin-top:0em;
+}
+form {
+  margin-bottom:1em;  
+}
+.corpsForm legend {
+  font-weight:bold;
+  font-size:1.2em;
+}
+
+.text-danger{
+    color:rgb(203,28,128);  
+    font-size : x-large;
+}
+
+.centre {
+  text-align:center;
+}
+
+/* Style pour les liens de la page principale */
+#contenu .label-info {
+    font-size:1.1em;
+}
+/* Style pour les parties importantes de la page principale */
+#contenu strong {
+  font-weight:bold;
+}
+
+/* Style pour les lignes d'en-tête des tableaux */
+#contenu th {  
+   background-color:#77AADD;
+   height:21px;
+   text-align:left;
+   vertical-align:top;
+   font-weight:bold;
+   border-bottom:0.1em solid #777777;
+   font-size:1.1em;
+} 
+
+#contenu h3 {
+    font-size : 1.2em;
+}
+#contenu table {
+    width:95%;
+    margin-bottom : 1em;
+}
+
+table caption {
+  font-weight:bold;
+  font-size:1.2em;
+  text-align : left;
+  margin-bottom : 0.3em;
+}
+
+#contenu h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #1D2941;
+	text-decoration: none;
+	border : 1px solid #6988BE;
+	padding-left: 25px;
+	background-color: #E9F1FE;
+  height : 28px;
+}
+
+#contenu img {
+  height : 28px;
+  float : left;
+
+}
